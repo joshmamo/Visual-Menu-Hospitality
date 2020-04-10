@@ -34,6 +34,7 @@ import MenuItem from "./MenuItem";
 import AddButton from "./AddButton";
 import styled from "styled-components";
 import { Box, List } from "@material-ui/core";
+import MuuriGrid from "./MuuriGrid.js";
 
 const StyledBox = styled(Box)`
   display: flex;
@@ -65,6 +66,8 @@ export default function App() {
       </List>
       {/* <MenuItem title="Kimchi Toastie" description="" image="" price="$15.00" /> */}
       <AddButton />
+
+      <MuuriGrid />
     </StyledBox>
   );
 }
